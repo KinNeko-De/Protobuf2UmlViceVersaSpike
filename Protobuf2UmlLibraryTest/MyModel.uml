@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1ROJECTWEeqUzojTKDyAbg">
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_uNXZ4CTYEeqUzojTKDyAbg" name="String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lhH38CTXEeqUzojTKDyAbg" name="Blubber ">
+    <ownedOperation xmi:id="_F2UBICTZEeqUzojTKDyAbg" name=" GiveMeABlub">
+      <ownedParameter xmi:id="_61088CTdEeqUzojTKDyAbg" name="request" type="_Yx6k8CTYEeqUzojTKDyAbg" direction="in"/>
+      <ownedParameter xmi:id="_Okv-oCTeEeqUzojTKDyAbg" name="response" type="_bxxoUCTYEeqUzojTKDyAbg" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Yx6k8CTYEeqUzojTKDyAbg" name="GiveMeABlubRequest">
+    <ownedAttribute xmi:id="_e64uUCTYEeqUzojTKDyAbg" name="nameOfClient" type="_uNXZ4CTYEeqUzojTKDyAbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bxxoUCTYEeqUzojTKDyAbg" name="GiveMeABlubReply">
+    <ownedAttribute xmi:id="_pJU4QCTYEeqUzojTKDyAbg" name="message" type="_uNXZ4CTYEeqUzojTKDyAbg"/>
+  </packagedElement>
+</uml:Model>
