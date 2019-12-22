@@ -32,6 +32,18 @@ namespace Protobuf2UmlLibraryTest
 					Console.WriteLine($"| + {method.OutputType} {method.Name}({method.InputType}) |");
 				}
 				Console.WriteLine("---------------");
+
+				foreach (DescriptorProto message in info.MessageType)
+				{
+					Console.WriteLine("---------------");
+					Console.WriteLine($"| {message.Name} |");
+					Console.WriteLine("---------------");
+					foreach (var field in message.Field)
+					{
+						Console.WriteLine($"| + {field.TypeName} {field.Name} |");
+					}
+					Console.WriteLine("---------------");
+				}
 			}
 		}
 	}
