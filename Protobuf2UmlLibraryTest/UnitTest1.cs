@@ -16,7 +16,7 @@ namespace Protobuf2UmlLibraryTest
 		[Test]
 		public void Test1()
 		{
-			using (var stream = File.OpenRead(@"C:\Users\Agando\Desktop\protoc-3.9.1-win64\bin\mymodel"))
+			using (var stream = File.OpenRead(@"mymodel"))
 			{
 				FileDescriptorSet descriptorSet = FileDescriptorSet.Parser.ParseFrom(stream);
 				Google.Protobuf.Collections.RepeatedField<FileDescriptorProto> descriptorsProto = descriptorSet.File;

@@ -17,4 +17,10 @@
     <ProjectReference Include="..\Protobuf2UmlLibrary\Protobuf2UmlLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="mymodel">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
