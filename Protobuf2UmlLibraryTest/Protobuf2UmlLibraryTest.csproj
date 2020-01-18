@@ -21,6 +21,13 @@
     <None Update="mymodel">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="protobuf\example.import">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="protobuf\output\import\" />
   </ItemGroup>
 
 </Project>

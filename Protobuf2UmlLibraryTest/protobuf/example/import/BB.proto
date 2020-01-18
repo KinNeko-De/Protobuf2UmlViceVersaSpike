@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package example.import.BB;
+
+import "example/import/B.proto";
+
+message MessageBB
+{
+	example.import.B.MessageB b = 1;
+	// example.import.A.MessageA not_accessable_no_private_import = 2; // Errormessage: example/import/BB.proto:10:9: "example.import.A.MessageA" seems to be defined in "example/import/A.proto", which is not imported by "example/import/BB.proto".  To use it here, please add the necessary import.
+}

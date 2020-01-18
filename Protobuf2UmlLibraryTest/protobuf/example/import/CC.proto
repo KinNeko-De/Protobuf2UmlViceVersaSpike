@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package example.import.CC;
+
+import public "example/import/C.proto";
+
+message MessageCC
+{
+	example.import.C.MessageC c = 1;
+	example.import.A.MessageA public_imported = 2;
+}
